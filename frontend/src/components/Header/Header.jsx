@@ -8,7 +8,7 @@ const Header = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % 13); // Total number of images is 13
-    }, 4000); // Change image every 4 seconds
+    }, 4000); // Change image every 5 seconds
 
     return () => clearInterval(interval);
   }, []);

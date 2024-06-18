@@ -12,7 +12,7 @@ function Footer() {
           <img className="logo" src={logo} alt="OvenCrust Logo" />
           <p>We are the best in delivering freshly baked cakes and pastries.</p>
           <div className="footerSocialIcons">
-            <a href="https://github.com/yourgithub/OvenCrust">
+            <a href="https://github.com/Dtwitchy/ovencrust">
               <img src={gitIcon} alt="GitHub" />
               <br />
               <small>Source Code</small>
@@ -31,12 +31,10 @@ function Footer() {
         <div className="footerContentRight">
           <h2>GET IN TOUCH</h2>
           <ul>
-            <li>07081868797</li>
-            <li>09160765827</li>
             <li>09015069742</li>
             <li>
-              <a href="mailto:ovencrust@example.com">
-                ovencrust@example.com
+              <a href="mailto:ovencrust@gmail.com">
+                ovencrust@gmail.com
               </a>
             </li>
           </ul>
